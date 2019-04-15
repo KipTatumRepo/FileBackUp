@@ -59,35 +59,5 @@ namespace FileBackUp.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1111111111111111111111111111111111111111 file 8.txt
-        ///7777777777777777777777777777777777777777 file 2.txt
-        ///3333333333333333333333333333333333333333 file 3.txt
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62a7 C:\cache\Hazlitt Economics in One Lesson In New.pdf
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62a8 C:\cache\Hazlitt Economics in One Lesson In New.pdf
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62a9 C:\cache\Hazlitt Economics in One Lesson In New.pdf
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62b0 C:\cache\Hazlitt Economics in  [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string New_sha1 {
-            get {
-                return ResourceManager.GetString("New_sha1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1111111111111111111111111111111111111111 file 1.txt
-        ///2222222222222222222222222222222222222222 file 2.txt
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62a7 C:\cache\Hazlitt Economics in One Lesson In New.pdf
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62a8 C:\cache\Hazlitt Economics in One Lesson In New.pdf
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62a9 C:\cache\Hazlitt Economics in One Lesson In New.pdf
-        ///6905d2e6c152e75b9a2870f99e9d953531ba62b0 C:\cache\Hazlitt Economics in One Lesson In New.pdf
-        ///6905d2e6c152e75b9a2870f99e9d95 [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string Old_sha1 {
-            get {
-                return ResourceManager.GetString("Old_sha1", resourceCulture);
-            }
-        }
     }
 }
