@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\kipta\Desktop\</PublishUrl>
+    <PublishUrl>C:\Users\kipta\Desktop\BackUpProgram\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/FileBackUp/</UpdateUrl>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -113,17 +113,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="New.sha1.txt" />
-    <Resource Include="Old.sha1.txt" />
+    <Content Include="Resources\New.sha1.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\TextFile1.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\New.sha1.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Old.sha1.txt" />
+    <Content Include="Resources\Old.sha1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

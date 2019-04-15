@@ -17,8 +17,8 @@ namespace FileBackUp
 			var userDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
 			//create file names
-			var newFileName = "New.sha1.txt";
-			var oldFileName = "Old.sha1.txt";
+			var newFileName = "..\\..\\Resources\\New.sha1.txt";
+			var oldFileName = "..\\..\\Resources\\Old.sha1.txt";
 
 			//create new folder on users desktop
 			var newFolder = Path.Combine(userDesktop, "Backup Results");
