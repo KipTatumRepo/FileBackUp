@@ -112,5 +112,18 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="New.sha1.txt" />
+    <Resource Include="Old.sha1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New.sha1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Old.sha1.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
