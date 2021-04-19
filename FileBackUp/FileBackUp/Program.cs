@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
-using System.Windows.Forms;
+
 
 namespace FileBackUp
 {
@@ -55,7 +52,7 @@ namespace FileBackUp
 			var newFolder = Path.Combine(userDesktop, "Backup Results");
 			Directory.CreateDirectory(newFolder);
 
-			//I am using a dictionary because the input file lines contain only 2 elements a SHA-1 hash(which will be the Key)
+			//I am using a dictionary because the input file lines contain only 2 elements a SHA-1 hash(which will be the Key and will be unique)
 			//and a filename(which will be the Value), a dictionary is an easily comparable data type
 			Dictionary<string, string> newFileLine = new Dictionary<string, string>();
 			Dictionary<string, string> oldFileLine = new Dictionary<string, string>();
